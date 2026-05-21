@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "in-hand-baseline"
+version = "0.1.0"
+description = "In-hand manipulation baseline for Isaac Lab"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["source/in_hand_baseline"]
+include = ["in_hand_baseline*"]
