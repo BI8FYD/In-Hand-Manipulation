@@ -11,3 +11,6 @@ requires-python = ">=3.10"
 [tool.setuptools.packages.find]
 where = ["source/in_hand_baseline"]
 include = ["in_hand_baseline*"]
+
+[tool.setuptools.package-data]
+in_hand_baseline = ["retargeting/configs/*.yml"]

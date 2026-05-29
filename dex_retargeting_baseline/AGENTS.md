@@ -5,7 +5,7 @@
 This project is an external IsaacLab project for in-hand manipulation research.
 
 Main project path:
-- /home/orion/projects/baseline-5-19/in_hand_baseline
+- /home/orion/projects/In_hand_manipulation/dex_retargeting_baseline
 
 IsaacLab path:
 - /home/orion/IsaacLab
@@ -33,5 +33,5 @@ The current baseline keeps the official G1 + Inspire hand asset but exposes only
 
 Install this external project:
 ```bash
-cd /home/orion/projects/baseline-5-19/in_hand_baseline
+cd /home/orion/projects/In_hand_manipulation/dex_retargeting_baseline
 python -m pip install -e .
